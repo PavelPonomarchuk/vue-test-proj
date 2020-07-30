@@ -2,21 +2,17 @@
   <div id="app">
     <h1>Какая-то страница</h1>
     <hr>
-    <TodoList />
+    <p>Какой-то текст, парам пам пам</p>
     <UnknownError />
-
-
   </div>
 </template>
 
 <script>
-import TodoList from '@/components/TodoList'
-import UnknownError from '@/components/UnknownError'
+import UnknownError from "@/components/UnknownError";
 
 export default {
   name: 'App',
   components: {
-    TodoList,
     UnknownError
   }
 }
