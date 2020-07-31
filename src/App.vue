@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <h1>Какая-то страница</h1>
-    <hr>
-    <p>Какой-то текст, парам пам пам</p>
+    <SomePage />
     <UnknownError />
   </div>
 </template>
 
 <script>
 import UnknownError from "@/components/UnknownError";
+import SomePage from "@/components/SomePage";
 
 export default {
   name: 'App',
   components: {
-    UnknownError
+    UnknownError,
+    SomePage
   }
 }
 </script>
