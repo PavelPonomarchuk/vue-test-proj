@@ -3,7 +3,7 @@
     <div class="error_popup">
       <ButtonClose />
       <div class="sign_attention">
-        <img src="@/assets/sign_attention.svg" alt="внимание">
+        <img class="image" src="@/assets/sign_attention.svg" alt="внимание">
         <span class="text_error">Неизвестная ошибка</span>
         <span class="text_callback">
           Для более точной информации <a class="text_link" href="#">свяжитесь с нами</a>
@@ -73,5 +73,9 @@
 
   .text_link {
     color: #707070;
+  }
+
+  .image {
+    height: 8.1875rem;
   }
 </style>
